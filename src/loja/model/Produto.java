@@ -72,12 +72,10 @@ public abstract class Produto {
 		case 2:
 			tipo = "Produto para computador";
 			break;
-		case 3:
-			tipo = "Produto para celular e computador";
 		}
 		
 		System.out.println("\n\n*************************************************");
-		System.out.println("            --DADOS DO PRODUTO--                     \n");
+		System.out.println("            --DADOS DO PRODUTO--                     ");
 		//System.out.println("*************************************************");
 		System.out.println("ID do produto: " + this.id);
 		System.out.println("Nome do produto: " + this.nome);

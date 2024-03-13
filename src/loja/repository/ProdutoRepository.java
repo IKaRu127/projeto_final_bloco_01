@@ -10,7 +10,7 @@ public interface ProdutoRepository {
 	public void listarProdutos();
 	public void cadastrarProduto(Produto produto);
 	public void atualizarProduto(Produto produto);
-	public void deletarProduto(Produto produto);
+	public void deletarProduto(int numero);
 	
 	//MÉTODOS GERAIS
 	
