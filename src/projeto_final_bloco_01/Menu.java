@@ -2,12 +2,22 @@ package projeto_final_bloco_01;
 
 import java.util.Scanner;
 
-
+import loja.model.ProdutoCelular;
+import loja.model.ProdutoComputador;
 import loja.util.Cores;
 
 public class Menu {
 
 	public static void main(String[] args) {
+		
+		//TESTES COM MÉTODOS DA LOJA
+		ProdutoCelular procelu1 = new ProdutoCelular(1,"Fone de ouvido",1,"Samsung",44.99f,"todas");
+		ProdutoCelular procelu2 = new ProdutoCelular(2,"Capinha",1,"Sem marca",10.50f,"Iphone");
+		ProdutoComputador propc1 = new ProdutoComputador(3,"Microfone",2,"ECHO",49.90f, "todos");
+		procelu1.visualizar();
+		procelu2.visualizar();
+		propc1.visualizar();
+		
 		
 		// VÁRIAVEIS
 		Scanner leia = new Scanner(System.in);
@@ -21,7 +31,7 @@ public class Menu {
 			System.out.println("                                                          ");
 			System.out.println("                  LOJA SUPERGADGETS                       ");
 			System.out.println("                                                          ");
-			System.out.println("  Só nas lojas nome você encontra acessórios de QUALIDADE ");
+			System.out.println(" Só nas SuperGadgets você encontra acessórios de QUALIDADE");
 			System.out.println("         por um preço BEM MENOR que no mercado!           ");
 			System.out.println("                                                          ");
 			System.out.println("**********************************************************");
